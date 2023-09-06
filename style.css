@@ -1,0 +1,105 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    width: 1080px;
+    height: 720px;
+    background-color: rgb(237, 237, 240, 0.5);
+}
+
+div#global-conteiner {
+    position: relative;
+    border: 1px solid rgb(155, 154, 154);
+    width: 600px;
+    height: 550px;
+    background-color: #dae4e8cf;
+    margin: 80px auto;
+    box-shadow: 3px 3px rgb(0, 255, 128, 0.4);
+}
+
+h1 {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 32px;
+    text-align: center;
+    color: limegreen;
+    text-shadow: 2px 2px white;
+}
+
+input[type=text] {
+    border: none;
+    padding: 12px 15px;
+    border-radius: 12px;
+    margin: 5px 0;
+    border-color: silver;
+    background-color: rgb(250, 245, 245); 
+    background-image: url(Images/usuario.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+    outline-style: none;
+}
+
+input[type=text]:hover {
+    box-shadow: 2px 2px rgb(135, 214, 6);
+}
+
+input[type=password] {
+    border: none;
+    padding: 12px 15px;
+    margin: 5px 0;
+    border-radius: 10px;
+    border-color: silver;   
+    margin: 5px 0;
+    background-image: url(Images/password.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+    outline-style: none;
+} 
+
+input[type=password]:hover {
+    box-shadow: 2px 2px rgb(135, 214, 6);
+}
+
+input[type=submit] {
+    height: 38px;
+    width: 192px;
+    background-color: lime;
+    border-radius: 3px;
+    border-color: rgb(56, 244, 90);
+}
+
+input[type=submit]:hover {
+    background-color: limegreen;
+    border-color: rgb(214, 217, 209);
+    box-shadow: 2px 2px rgb(135, 214, 6);
+}
+
+div#items-conteiner {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+img#Bonsai {
+    position: absolute;
+    left: 100%;
+    top: 100%;
+    transform: translate(-100%, -100%);
+}
+
+div#footer-conteiner {
+    position: absolute;
+    height: 50px;
+    width: 1080px;
+    margin: 0 0;
+}
+
+footer p {
+    text-align: justify;
+    padding: 30px;
+}
